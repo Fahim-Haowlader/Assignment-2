@@ -65,7 +65,7 @@ nav li {
 }
 
 .hero-container {
-    height: 50vw;
+    height: 42.3vw;
     display: flex;
     margin: 0px 180px;
     justify-content: space-between;
@@ -248,6 +248,7 @@ main h1 {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
+    margin-top: 100px;
 }
 
 main p {
@@ -268,7 +269,7 @@ main p {
 .habits-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
+    /* gap: 1px; */
 }
 
 .habits-container img {
@@ -328,6 +329,8 @@ main p {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-top: -0px;
+    margin-left: 20px;
 
 }
 
@@ -340,7 +343,7 @@ main p {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
-    margin: 14px 0px;
+    margin: 14px 0px 14px 20px;
 }
 
 .extra-left button {
@@ -358,6 +361,7 @@ main p {
     text-align: center;
     padding: 16px 40px 16px 40px;
     border: none;
+    margin-left: 20px;
 }
 
 .extra-right img {
@@ -552,7 +556,7 @@ main p {
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
-    margin: 10px 350px 20px;   
+    margin: 10px 350px 50px;   
 }
 .bmi-container{
     background: rgb(34, 34, 34);
@@ -561,7 +565,7 @@ main p {
     justify-content: space-evenly;
 }
 .bmi-left{
-    margin: 60px 100px 130px 190px;
+    margin: -50px 100px 130px 190px;
 }
 .bmi-left>h1{
 
@@ -599,7 +603,7 @@ letter-spacing: 0%;
 text-align: left;
 }
 .bmi-right{
-    margin: 60px 190px 0px 40px;
+    margin: -50px 190px 0px 40px;
 }
 .bmi-right>h1{
     color: rgb(255, 255, 255);
@@ -620,7 +624,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.3px;
 text-align: left;
-margin-bottom: 40px;
+margin-bottom: 20px;
 }
 input[type="text"]{
     border-radius: 8px;
@@ -765,7 +769,11 @@ padding: 30px;
     left: 100px; */
    font-size: 20px;
 }
-.pricing p{
+.pricing >p{
+    color: white;
+    margin-bottom: 70px;
+}
+.plan p{
     color: white;
 }
 .price1,.price2,.price3{
@@ -825,11 +833,17 @@ margin-top: 20px;
 
 
 footer{
+    
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-container{
     height: 280px;
     display: flex;
     margin: 80px 190px 10px;
     justify-content: space-between;
     color: aliceblue;
+    padding-top: 50px;
+    
 }
 .footer-part1{
     width: 444px;
@@ -901,7 +915,7 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.3px;
 text-align: center;
-margin: 5px 10px 50px;
+padding:0px 10px  50px;
 }
 
 
