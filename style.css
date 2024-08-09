@@ -1447,7 +1447,7 @@ footer {
     }
 
     .bmi-left {
-        margin: 20px 20px 40px 70px;
+        margin: 20px 20px 0px 70px;
 
     }
 
@@ -1470,7 +1470,7 @@ footer {
         letter-spacing: 0%;
         text-align: left;
         margin-bottom: 50px;
-        margin: 30px 0px;
+        margin: 20px 0px;
         margin-left: -20px;
 
 
